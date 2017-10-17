@@ -1,4 +1,4 @@
-![CF](https://i.imgur.com/7v5ASc8.png)  Lab 01: Mobile First
+![ACL](/acl-logo.png)  Lab 01: Mobile First
 =======
 [Code of Conduct](https://github.com/codefellows/code-of-conduct)
 
