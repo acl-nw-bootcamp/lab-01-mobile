@@ -9,6 +9,11 @@
 }
 
 /* TODO: Add styles for the icon-menu class. It should be bigger, and off to the right. */
+.icon-menu {
+  position: absolute;
+  right: 0px;
+  font-size: 50px;
+}
 
 .main-nav {
   padding: 0.1em;
@@ -26,10 +31,12 @@
 }
 
 .main-nav li {
-  margin-right: .4em;
+  margin-right: 4em;
   font-size: 1.5em;
   padding: .5em .2em;
   border-bottom: 1px solid #ccc;
+  float: left;
+  text-align: center;
 }
 
 #filters {
@@ -48,6 +55,16 @@
 .byline a {
   font-weight: bold;
   text-decoration: none;
+}
+
+@media (min-width: 1200px) {
+  .icon-menu {
+    visibility: hidden;
+  }
+  .main-nav:hover ul {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 /* TODO: Now add styles for how things should look on a larger screen:
