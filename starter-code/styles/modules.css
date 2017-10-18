@@ -10,10 +10,10 @@
 
 /* TODO: Add styles for the icon-menu class. It should be bigger, and off to the right. */
 .icon-menu {
-  font-size: 120%;
-  text-align: right;
+  font-size: 250%;
+  position: absolute;
+  right: 0px;
 }
-
 
 .main-nav {
   padding: 0.1em;
@@ -53,6 +53,17 @@
 .byline a {
   font-weight: bold;
   text-decoration: none;
+}
+
+@media (min-width: 420px) {
+  .icon-menu {
+    display: none;
+  }
+  .main-nav li {
+    padding: 10px 100px;
+    display: inline-block;
+  }
+
 }
 
 /* TODO: Now add styles for how things should look on a larger screen:
