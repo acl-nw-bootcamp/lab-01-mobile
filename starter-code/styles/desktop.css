@@ -1,0 +1,14 @@
+@media (min-width: 850px) {
+  .main-nav ul {
+    text-align: center;
+    display: block;
+  }
+  .main-nav li {
+    display: inline-block;
+    padding: 3em;
+  }
+
+  .icon-menu {
+    display: none;
+  }
+}

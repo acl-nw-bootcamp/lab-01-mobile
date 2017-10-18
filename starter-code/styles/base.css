@@ -1,4 +1,8 @@
 /* TODO: Add a rule for images, so they never exceed their container's width. */
+@import "icons.css";
+@import "layout.css";
+@import "modules.css";
+@import "desktop.css" (min-width: 850px);
 
 body {
   line-height: 1.5;
@@ -34,4 +38,8 @@ a:hover, a:focus {
 }
 
 a:visited {
+}
+
+img {
+  max-width: 100%;
 }
