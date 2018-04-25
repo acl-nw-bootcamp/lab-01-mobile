@@ -8,11 +8,10 @@
   padding: 0 0 .2em 1em;
 }
 
-/* TODO: Add styles for the icon-menu class. It should be bigger, and off to the right. */
+/* TODONE: Add styles for the icon-menu class. It should be bigger, and off to the right. */
 
 .icon-menu {
 	font-size: 40px;
-	position: relative;
 	float: right
 }
 
@@ -56,7 +55,7 @@
   text-decoration: none;
 }
 
-/* TODO: Now add styles for how things should look on a larger screen:
+/* TODONE: Now add styles for how things should look on a larger screen:
          - Hide the hamburger.
          - Main should be all on one row, with padding spaced better for a larger screen.
          - Just, ya know, try to make it look good! */
