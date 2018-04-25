@@ -39,8 +39,12 @@
 	content: "\e90a";
 }
 .icon-menu:before {
+	font-size: 40px;
+	position: relative;
+	float: right;
 	content: "\e902";
 }
+
 .icon-link:before {
 	content: "\e903";
 }
