@@ -11,8 +11,10 @@
 /* TODONE: Add styles for the icon-menu class. It should be bigger, and off to the right. */
 
 .icon-menu {
-	font-size: 40px;
-	float: right
+  font-size: 50px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
 
 .main-nav {
@@ -31,7 +33,7 @@
 }
 
 .main-nav li {
-  display: block;
+  display: none;
   margin-right: .4em;
   font-size: 1.5em;
   padding: .5em .2em;
@@ -61,8 +63,27 @@
          - Just, ya know, try to make it look good! */
 /* @media only screen... */
 
+input {
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  -webkit-touch-callout: none;
+}
+
+.main-nav input:checked  ~ ul li {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+
 @media screen and (min-width: 640px) {
-  .icon-menu {
+  .icon-menu, input {
       display: none;
   }
   .main-nav ul {
