@@ -2,7 +2,7 @@
 =======
 [Code of Conduct](https://github.com/codefellows/code-of-conduct)
 
-Welcome to your first lab assignment for Code 301!!
+Welcome to your first lab assignment for Bootcamp Part 2!!
 
 Today we'll be kicking off our Blog App by applying what we learned in lectures to implement a mobile-first design, using responsive web design techniques. You'll also need to spend some time getting familiar with the new Git/GitHub & Pair Programming workflow that we'll utilize throughout this course.
 
@@ -30,8 +30,8 @@ Here is the recommended workflow (*We reviewed this in class*):
 
 1. Driver: fork the ACL Lab 01 repository if you haven't done so already.
 1. Your **forked repo** on GitHub will be your "origin" repo. Clone **your fork** to your local development environment:
-  1. If you haven't done so yet, create a directory named "301" - `mkdir 301/` (This will be your parent 301 directory and set you up for organizational success!)
-  1. Next, `cd 301/`
+  1. If you haven't done so yet, create a directory named "Bootcamp Part II" - `mkdir Bootcamp\ Part \II/` (This will be your parent Bootcamp directory and set you up for organizational success!)
+  1. Next, `cd Bootcamp\ Part \II/`
   1. `mkdir lab-assignments` to house the pair assignment repos.
   1. `cd lab-assignments`
   2. `mkdir my-forked-labs`
@@ -64,8 +64,8 @@ Find those `TODO` items in the code, and tackle one of them.
 ### Switch roles
 
 1. Navigator (AKA new Driver): You can now clone the driver's fork, to your own local dev environment. If you haven't already:
-2. `mkdir 301/` that will be the parent directory for all things 301.
-3. `cd 301/`
+2. `mkdir Bootcamp\ Part \II/` that will be the parent directory for all things Bootcamp.
+3. `cd Bootcamp\ Part \II/`
 4. `mkdir lab-assignments`
 5. `cd lab-assignments`
 6. `mkdir partners-forked-labs`

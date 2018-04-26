@@ -10,8 +10,7 @@ Some hints to get going:
 - Start with a pen & paper "wireframe" sketch of what you want your portfolio site to look like. You are expected to create completely original styling for your portfolio, so take the time to decide how you want the portfolio to look. The more specificity you can provide, the easier it will be to write the CSS. You can always modify the styling as you progress, but it's very hard to create styling if you don't have a clear picture of how the finished product should look and behave.
 - Make a JS constructor function to model your project data. Think about what properties you would need to accurately model a coding project.
 - Work through as many of the user stories as you can, but always submit what you have by the due date. Don't let "if only..." ideas keep you from turning something in!
-- Add the [.eslintrc]() config file to the root of your repo, so we are all on the same linter settings.
-- Also include a .[gitignore] (https://github.com/codefellows/seattle-301n5/blob/master/.gitignore) file in your root directory to prevent non-relevant files from being pushed to GitHub.
+- Also include a .gitignore file in your root directory to prevent non-relevant files from being pushed to GitHub.
 
 Follow along with these user stories to make sure your portfolio looks good on any sized device.
 
