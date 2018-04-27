@@ -60,7 +60,13 @@
 /* @media only screen... */
 
 @media (min-width: 480px){
-.icon-menu{
+.icon-menu {
   display: none;
+}
+.main-nav ul {
+  display: block;
+}
+.main-nav ul li {
+  display: inline;
 }
 }
