@@ -1,5 +1,6 @@
 .pull-left {
   float: left;
+  padding-right: 5px;
 }
 
 .pull-right {

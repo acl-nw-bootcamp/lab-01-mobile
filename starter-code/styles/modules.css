@@ -64,5 +64,6 @@
   article.clearfix {
     padding: 20px;
     width: 33%;
+    overflow: auto;
   }
 }
